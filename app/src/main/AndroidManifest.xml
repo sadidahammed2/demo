@@ -17,11 +17,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice_all_inyears">
         <activity
+            android:name=".plear"
+            android:exported="false" />
+        <activity
             android:name=".webview_to_read"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".messes"
             android:exported="false" />
