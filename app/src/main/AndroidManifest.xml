@@ -17,6 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice_all_inyears">
         <activity
+            android:name=".tradingpractice"
+            android:exported="false" />
+        <activity
+            android:name=".trading"
+            android:exported="false" />
+        <activity
             android:name=".plear"
             android:exported="false" />
         <activity

@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent n = new Intent(MainActivity.this, MainActivity3.class);
+                Intent n = new Intent(MainActivity.this, trading.class);
                 startActivity(n);
             }
         });
         buttonn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mess = new Intent(MainActivity.this,messes.class);
+                Intent mess = new Intent(MainActivity.this,tradingpractice.class);
                 startActivity(mess);
             }
         });
